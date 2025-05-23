@@ -56,13 +56,13 @@ And generates a clear, factual response with citations.
 ## 📁 Folder Overview
 
 Rapid/
-├── config/                 # Config YAML
-├── core/                  # Indexer, Engine, RFI Manager
-├── data/                  # RFI store, response log, audit trail
-├── frontend/              # Streamlit interface
-├── knowledge_base/        # Glossaries, templates, SOPs
-├── projects/              # Project-specific artifacts
-├── utils/                 # File and LLM utilities
+├── config/                 # Runtime paths and secrets
+├── core/                  # Context indexer, response engine, RFI manager
+├── data/                  # RFI storage and response audit trail
+├── frontend/              # Streamlit UIs for Audit & Respond users
+├── knowledge_base/        # SOPs, glossary, QA checklists, templates
+├── projects/              # Uploaded project artifacts
+├── utils/                 # File/LLM helpers
 └── README.md
 
 ## ⚙️ How to Run
@@ -71,10 +71,15 @@ Install dependencies:
 pip install -r requirements.txt
 
 # You can also run dedicated UIs:
-	•	Audit Portal:
+
+---
+    •	Audit Portal:
 streamlit run Rapid/frontend/audit_ui_app.py
+
+---
 	•	Response App:
 streamlit run Rapid/frontend/respond_ui_app.py
+
 
 ## ✅ What’s Working Now
 	•	✅ End-to-end RFI intake to response generation
