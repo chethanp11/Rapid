@@ -1,0 +1,17 @@
+From: anita.rao@bank.com
+To: finance.operations@bank.com
+Subject: Delayed Review – Journal Entry JE-003
+
+Date: 2025-05-06 09:45
+
+Dear Team,
+
+Apologies for the delay in reviewing JE-003. I was on planned leave from 3-May to 5-May and have now completed the review.
+
+Entry has been approved and noted in the control log.
+
+Let me know if this needs to be escalated further or documented in exception log.
+
+Regards,  
+Anita Rao  
+Senior Financial Controller  

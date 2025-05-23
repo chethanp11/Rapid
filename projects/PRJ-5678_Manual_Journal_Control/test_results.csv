@@ -1,0 +1,6 @@
+Test ID,Scenario,Expected,Actual,Status
+TC-001,Review within 24 hrs,Entry approved and logged,Entry approved within SLA,Pass
+TC-002,Delayed review due to leave,Escalation documented,Escalation email sent,Pass
+TC-003,Entry without approver,Flag for exception,Flag raised in QA log,Pass
+TC-004,Out-of-policy amount,Escalate to finance head,Escalation recorded,Pass
+TC-005,Weekend entry,Reviewed next business day,Reviewed on Monday,Pass

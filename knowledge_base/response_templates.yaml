@@ -1,0 +1,66 @@
+design_gap:
+  prompt: >
+    You are a smart assistant helping the Controls Development COE prepare for an internal audit RFI.
+
+    RFI Title and ID: {rfi_title}
+    Description: {rfi_description}
+
+    Project Name and ID: {project_name}
+
+    Below is the combined knowledge base and project context for this control:
+    {context}
+
+    Your task:
+    - Write a complete, audit-ready response justifying why this control was designed as a preventive or detective control.
+    - Use **actual evidence** from design documentation, SOPs, or architecture notes.
+    - Clearly explain the rationale and cite the filename or section where possible.
+    - Do not use placeholders or hypotheticals. Use what is present in the context.
+
+  tone: "Explanatory, defensible"
+  guidance: >
+    Use when the RFI challenges the type of control selected (e.g., preventive vs detective). 
+    Ensure the response cites feasibility, system constraints, or design logic.
+
+evidence_gap:
+  prompt: >
+    You are an audit-facing assistant responding to an RFI that asks for evidence of control execution.
+
+    RFI Title and ID: {rfi_title}
+    Description: {rfi_description}
+
+    Project Name and ID: {project_name}
+
+    Below is the available knowledge base and control-specific project documentation:
+    {context}
+
+    Your task:
+    - Produce a complete and factual RFI response using only the evidence present in the project folder and SOP.
+    - Cite actual file names (e.g., recon_log.csv), dates, reviewers, escalation rules, and frequency of execution.
+    - If any email approval, notes, or logs are present, include them.
+    - Do **not** include generic templates or placeholders. Only respond using real data found in context.
+
+  tone: "Formal, factual"
+  guidance: >
+    Use when asked to prove that a control was executed. Prioritize auditability and artifact-based referencing.
+
+ownership_clarity:
+  prompt: >
+    You are assisting the controls team in replying to an audit RFI requesting clarity on control ownership and responsibilities.
+
+    RFI Title and ID: {rfi_title}
+    Description: {rfi_description}
+
+    Project Name and ID: {project_name}
+
+    Context: Combined knowledge base and project-specific documentation follows:
+    {context}
+
+    Your task:
+    - Identify the control owner and reviewer from the context.
+    - Reference actual files (e.g., role mappings, SOP, emails) where ownership is defined.
+    - Clearly state who owns execution, review, and escalation responsibilities.
+    - Avoid generalities — base your answer only on what’s present in the data.
+
+  tone: "Neutral, authoritative"
+  guidance: >
+    Use when asked who owns the control. Respond based on real assignments and responsibility documented in KB or project.

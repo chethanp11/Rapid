@@ -1,0 +1,6 @@
+rfi_id,category,question,trigger_signal,tags,confidence_weight
+RFI-001,evidence_gap,Provide evidence of control execution,"recon,break,log,email","Reconciliation;Evidence",0.9
+RFI-002,design_gap,Justify design decision for manual control,"manual,non-system,post-facto","Design;Manual;JE",0.8
+RFI-003,exception_handling,How are exceptions identified and escalated?,"exception,escalation,threshold","Escalation;Exceptions",0.85
+RFI-004,ownership_clarity,Who owns the review and signoff process?,"owner,responsible,review","Ownership;Roles",0.7
+RFI-005,review_frequency,What is the frequency of control review?,"weekly,daily,quarterly","Frequency;Review",0.75

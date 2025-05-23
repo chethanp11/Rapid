@@ -1,0 +1,6 @@
+Break ID,Value Date,Currency,Amount,Root Cause,Status,Escalated?
+BRK-1001,2025-05-01,USD,1500.25,Missing SWIFT,Unresolved,Yes
+BRK-1002,2025-05-02,EUR,-820.00,Cutoff mismatch Resolved,No
+BRK-1003,2025-05-03,INR,130.50,FX Timing,Resolved,No
+BRK-1004,2025-05-04,GBP,250.00,Manual entry,Pending,Yes
+BRK-1005,2025-05-05,USD,0.00,Reversal delay,Resolved,No

@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2025-05-18T10:15:00Z",
+    "user": "audit_jane",
+    "action": "submitted_rfi",
+    "rfi_id": "RFI-0001",
+    "notes": "Initial submission"
+  },
+  {
+    "timestamp": "2025-05-18T12:15:00Z",
+    "user": "controls_amit",
+    "action": "generated_response",
+    "rfi_id": "RFI-0001",
+    "notes": "Auto-generated using project artifacts"
+  },
+  {
+    "timestamp": "2025-05-18T12:20:00Z",
+    "user": "controls_amit",
+    "action": "reviewed_draft",
+    "rfi_id": "RFI-0001",
+    "notes": "Validated against QA checklist"
+  }
+]

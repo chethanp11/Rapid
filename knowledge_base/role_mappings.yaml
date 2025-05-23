@@ -1,0 +1,29 @@
+manual_journal_entry_control:
+  design: "Finance Control Design Team (1LoD)"
+  execution: "Business Unit Accountant (1LoD)"
+  review: "Financial Control QA (2LoD)"
+  escalation: "Financial Risk Lead (2LoD)"
+
+nostro_reconciliation_control:
+  design: "Ops Risk COE (1LoD)"
+  execution: "Reconciliation Analyst (1LoD)"
+  review: "Reconciliation Supervisor (1LoD)"
+  escalation: "Operations Head (2LoD)"
+
+break_monitoring_control:
+  design: "Control Standards Team (2LoD)"
+  execution: "Process SME (1LoD)"
+  review: "Control QA Reviewer (2LoD)"
+  escalation: "Risk Operations Manager (2LoD)"
+
+access_provisioning_control:
+  design: "IT Risk Design Group (2LoD)"
+  execution: "IT Support Desk (1LoD)"
+  review: "IT Compliance (2LoD)"
+  escalation: "CISO Office (3LoD)"
+
+vendor_risk_control:
+  design: "Third-Party Risk Team (2LoD)"
+  execution: "Procurement Ops (1LoD)"
+  review: "Risk & Compliance Ops (2LoD)"
+  escalation: "Vendor Governance Lead (2LoD)"

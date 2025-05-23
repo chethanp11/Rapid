@@ -1,0 +1,6 @@
+Test ID,Scenario,Expected,Actual,Status
+TC-001,Break under threshold,No escalation,No escalation,Pass
+TC-002,Break over threshold,Escalation triggered,Escalation triggered,Pass
+TC-003,No breaks for 3 days,No exception,No exception,Pass
+TC-004,Incorrect escalation,Flag for review,Flag for review,Pass
+TC-005,Late reconciliation,Escalation logged,Escalation logged,Pass

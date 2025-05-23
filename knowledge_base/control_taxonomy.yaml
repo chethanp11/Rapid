@@ -1,0 +1,32 @@
+preventive:
+  description: "Stops a risk event from occurring"
+  risk_domains: 
+    - Access Management
+    - Transaction Controls
+    - IT Governance
+  examples:
+    - Maker-checker validation
+    - Role-based access setup
+    - Dual approval flows
+
+detective:
+  description: "Identifies issues after they occur"
+  risk_domains: 
+    - Reconciliation
+    - Exception Monitoring
+    - Fraud Detection
+  examples:
+    - Nostro break checks
+    - Journal entry flagging
+    - Daily exception reports
+
+corrective:
+  description: "Resolves or mitigates known issues"
+  risk_domains:
+    - Escalation
+    - Manual Corrections
+    - Compliance Rectification
+  examples:
+    - Manual override approvals
+    - Data patching logs
+    - Escalation workflow tracking

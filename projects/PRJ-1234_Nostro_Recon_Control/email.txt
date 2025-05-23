@@ -1,0 +1,18 @@
+From: amit.kumar@bank.com
+To: ops.supervisor@bank.com
+CC: risk.controls@bank.com
+Subject: Escalation - Unresolved Nostro Break (BRK-1004)
+
+Date: 2025-05-04 17:22
+
+Dear Team,
+
+The Nostro break identified under ID BRK-1004 remains unresolved past the 48-hour threshold.
+
+Please note that this has now been escalated in accordance with SOP section 3.4. The reconciliation logs and analyst notes are attached for reference.
+
+Kindly advise on any further action required.
+
+Regards,  
+Amit Kumar  
+Reconciliation Analyst  

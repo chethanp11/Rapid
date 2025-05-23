@@ -1,0 +1,27 @@
+low:
+  description: "Minor issues, handled within business team"
+  execution_owner: "Process Owner (1LoD)"
+  review_owner: "Team Supervisor (1LoD)"
+  escalation_to: "Control QA (2LoD)"
+  audit_visibility: false
+
+medium:
+  description: "Moderate issues with potential operational impact"
+  execution_owner: "Control Executor (1LoD)"
+  review_owner: "Control QA Reviewer (2LoD)"
+  escalation_to: "Ops Risk COE Lead (2LoD)"
+  audit_visibility: true
+
+high:
+  description: "Material control failures or repeated exceptions"
+  execution_owner: "Business Head / Senior Ops (1LoD)"
+  review_owner: "Risk and Control Committee (2LoD)"
+  escalation_to: "Head of Risk (2LoD) and Audit Liaison (3LoD)"
+  audit_visibility: true
+
+critical:
+  description: "Systemic issue or audit-impacting breach"
+  execution_owner: "Executive Sponsor or BU Head"
+  review_owner: "Chief Risk Officer / CRO Delegate"
+  escalation_to: "Internal Audit, Risk Committee Chair"
+  audit_visibility: true

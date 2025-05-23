@@ -1,0 +1,7 @@
+2025-05-02 — BRK-1002 resolved within SLA. Root cause confirmed as cutoff mismatch due to incorrect FX booking.
+
+2025-05-04 — BRK-1004 remains unresolved. Escalated to supervisor on same day. Evidence available in escalation email.
+
+2025-05-05 — Reviewed `recon_log.csv` for all entries between 1-May to 5-May. No breach of escalation policy apart from BRK-1004.
+
+Daily reconciliation reviewed and manually logged by Reconciliation Analyst.

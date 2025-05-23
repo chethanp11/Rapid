@@ -1,0 +1,6 @@
+Entry ID,Date,Amount,Prepared By,Reviewed By,Approval Date,Status
+JE-001,2025-05-01,10000,Rajiv Mehta,Anita Rao,2025-05-03,Approved
+JE-002,2025-05-02,-7500,Meera Shah,Anita Rao,2025-05-03,Approved
+JE-003,2025-05-03,3200,Rajiv Mehta,Pending,,Pending
+JE-004,2025-05-04,10500,Meera Shah,Anita Rao,2025-05-05,Approved
+JE-005,2025-05-05,-2200,Rajiv Mehta,, ,Pending
